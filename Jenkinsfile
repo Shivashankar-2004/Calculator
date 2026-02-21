@@ -21,7 +21,7 @@ steps{
 sh 'java calculator 30 -5'
 }
 }
-stage('Deploy')
+stage('Deploy') {
 steps {
 echo 'Deploy completed'
 }
